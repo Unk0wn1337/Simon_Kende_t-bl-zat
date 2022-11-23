@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+td, th {
+    border: 1px solid black;
+    
+}
+
+th {
+    background-color: yellow;
+
+}
+tbody tr:nth-child(even) {
+    background-color: brown;
+
+}
+tbody tr:nth-child(odd) {
+    background-color: blueviolet;
+
+}

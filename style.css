@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th {
+    border: 1px solid black;
+
+}
+th {
+    font-variant: small-caps;
+    background-color: aqua;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: chartreuse;
+
+}
+tbody tr:nth-child(odd) {
+    color: pink;
+
+}
+.osszevont {
+    color: orange;
+}
